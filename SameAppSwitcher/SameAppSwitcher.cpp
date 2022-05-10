@@ -184,11 +184,11 @@ void HotkeySwitchWindows(bool isHoldingMenuKey, bool forward)
     (
         LOG__(L"#----------------------------------- "
             << chrono::system_clock::to_time_t(chrono::system_clock::now()));
-    for (vector<WindowInfo>::iterator iter = winfoList.begin(); iter != winfoList.end(); iter++)
-    {
-        WindowInfo& windowInfo = *iter;
-        LOG__(windowInfo.file << ' ' << windowInfo.hwnd << ' ' << windowInfo.title);
-    }
+        for (vector<WindowInfo>::iterator iter = winfoList.begin(); iter != winfoList.end(); iter++)
+        {
+            WindowInfo& windowInfo = *iter;
+            LOG__(windowInfo.file << ' ' << windowInfo.hwnd << ' ' << windowInfo.title);
+        }
     );
 
     if (winfoList.size() < 2)
