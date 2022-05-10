@@ -7,7 +7,7 @@ The hotkey **Alt + `(backtick)** switches the windows of the same applications.
 |**Alt + Shift + `**|switch windows backwards|
 |**Ctrl + Alt + `**|toggle to restore minimized windows|
 |**Ctrl + Alt + Right Shift + `**|toggle to register/unregister the first three hot keys|
-|**Ctrl + Alt + Left Shift + `**|terminiate|
+|**Ctrl + Alt + Left Shift + `**|terminate|
 
 ## **Restrictions**
 The minimized elevated windows can't be restored.
