@@ -332,7 +332,6 @@ void EndApp()
     CoUninitialize();
 }
 
-
 void DoMyJob()
 {
     MSG msg;
